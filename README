@@ -3,3 +3,10 @@ This is the second project in  Operating Systems with Mark Hauschild.
 Concurrent UNIX Processes and shared memory:
 
 GOAL: become familiar with concurrent processing in Unix/Linux using shared memory.
+
+Project 2:
+1)Read file into main that contains words, one on each line.
+2)Stores those strings into shared memory
+3)Array of pointers called *mylist[] that holds pointers pointing to the beginning of a string in shared memory
+4)The main program while spawn at max 20 processes to determine if the string is a palindrome
+5)the process will output the PID, Index #, and String into the appropriate file
